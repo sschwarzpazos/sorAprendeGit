@@ -6,8 +6,9 @@ import { NavController } from 'ionic-angular';
   templateUrl: 'home.html'
 })
 export class HomePage {
-  titulo:string = 'Inicio';
+
   texto:string = 'Soraya está aprendiendo git!!'
+
   constructor(public navCtrl: NavController) {
 
   }
